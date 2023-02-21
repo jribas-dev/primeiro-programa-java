@@ -7,11 +7,6 @@ import br.com.curso.model.Gato;
 public class PrimeiroPrograma {
 
 	public static void main(String[] args) {
-		/* 
-		   int a = 2;
-		   int b = 3;
-		   System.out.println("Hello World! " + (a+b));
-		*/
 	   Gato gato = new Gato("Garfield", "Marrom", 35);
 	   Livros livro = new Livros();
 	   
@@ -23,12 +18,12 @@ public class PrimeiroPrograma {
 
 class Livros {
 	private String nome;
-	private String npag;
+	private int npag;
 	
 	public Livros() {
 	}
 
-	public Livros(String nome, String npag) {
+	public Livros(String nome, int npag) {
 		this.nome = nome;
 		this.npag = npag;
 	}
@@ -41,11 +36,11 @@ class Livros {
 		this.nome = nome;
 	}
 
-	public String getNpag() {
+	public int getNpag() {
 		return npag;
 	}
 
-	public void setNpag(String npag) {
+	public void setNpag(int npag) {
 		this.npag = npag;
 	}
 
