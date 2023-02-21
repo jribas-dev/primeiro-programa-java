@@ -1,6 +1,6 @@
-package br.com.jribas;
+package br.com.curso;
 
-import br.com.jribas.model.Gato;
+import br.com.curso.model.Gato;
 
 public class PrimeiroPrograma {
 

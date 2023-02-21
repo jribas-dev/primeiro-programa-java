@@ -1,4 +1,4 @@
-package br.com.jribas.model;
+package br.com.curso.model;
 
 import java.util.Objects;
 
